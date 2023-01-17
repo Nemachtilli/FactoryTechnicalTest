@@ -22,7 +22,7 @@ class DatabaseSeeder extends Seeder
     {   
 
         Director::factory(10)->create();
-        User::factory(5)->make();
+        User::factory(100)->make();
 
         
 
